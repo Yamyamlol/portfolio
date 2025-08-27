@@ -175,14 +175,16 @@ export const ProjectsSection = () => {
         </div>
 
         <div className="text-center mt-12">
+          <a href="https://github.com/yamyamlol" target="_blank">
           <Button
             variant="outline"
             size="lg"
             className="glass hover-glow border-border/50 hover:border-primary hover-scale"
           >
-            <Github className="mr-2 h-5 w-5" />
-            View All Projects on GitHub
+              <Github className="mr-2 h-5 w-5" />
+              View All Projects on GitHub
           </Button>
+            </a>
         </div>
       </div>
     </section>
